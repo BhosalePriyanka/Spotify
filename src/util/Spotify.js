@@ -1,8 +1,9 @@
 
 let accessToken;
 const clientId = process.env.REACT_APP_API_KEY
-let redirectURI = "http://localhost:3000/";
+// let redirectURI = "http://localhost:3000/";
 // let redirectURI = "http://JammingYoutube.surge.sh";
+let redirectURI = "https://main--resplendent-panda-4be0dc.netlify.app/";
 
 export const Spotify ={
     getAccessToken(){
